@@ -6,12 +6,13 @@ import Footer from '../Footer';
 import Bridge from '../Bridge';
 import Map from '../Map';
 import NFT from '../NFT';
+import Tool from '../Tool';
 
 function Governance() {
   return (
     <>
-      <Map/>
-      <NFT/>
+
+      <Tool/>
     </>
   );
 }
