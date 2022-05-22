@@ -4,12 +4,12 @@ import './Tool.css';
 
 function Tool() {
   return (
-    <div className='cards'> 
+
     <div className='card'>
-      <div className='card-content'>
+      <div className='card-content'>blablablablaba
         
       </div>
-            <div className='card'>
+            <div >
             <div className='cards__container'>
               <div className='cardbutton'>Open to Vote</div>
               <div className='subject'>Decide on what is going to be the aditional construction</div>
@@ -31,7 +31,7 @@ function Tool() {
             </div>;
     </div>
     </div>
-    </div>
+
     
   );
 }

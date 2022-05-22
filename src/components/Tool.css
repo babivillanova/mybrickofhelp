@@ -6,7 +6,12 @@
 h1,
 h2 {
 }
-
+.card {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  margin-top: 50px;
+}
 .cards__container {
   flex: 2;
   display: flex;
@@ -19,6 +24,7 @@ h2 {
   color: #ffffff;
   font-weight: 100;
   border-radius: 8px;
+
   margin-bottom: 5px;
   padding-top: 2%;
   padding-right: 2%;
