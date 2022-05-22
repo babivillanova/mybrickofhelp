@@ -1,0 +1,18 @@
+.map-container2 {
+  position: relative;
+
+  bottom: 0;
+  left: 5%;
+  right: 10px;
+  height: 35vw;
+  width: 90%;
+}
+
+.hero22 {
+  position: relative;
+  top: -120px;
+  left: 30px;
+  width: 18%;
+  max-width: 200px;
+  z-index: 0;
+}

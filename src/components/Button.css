@@ -28,13 +28,13 @@
 .btn--primary {
 }
 
-.btn--outline {
+/* .btn--outline {
   padding: 8px 20px;
-  /* border: 1px solid var(--primary);*/
+  /* border: 1px solid var(--primary);
   transition: all 0.3s ease-out;
-}
+} */
 
-.btn--medium {
+/* .btn--medium {
   padding: 8px 20px;
   font-size: 18px;
 }
@@ -42,10 +42,11 @@
 .btn--large {
   padding: 12px 26px;
   font-size: 30px;
-}
+} */
 
 .btn--large:hover,
-.btn:hover {
+.btn:hover,
+.button:hover {
   transition: all 0.3s ease-out;
   background: rgb(141, 18, 18);
   color: #242424;
