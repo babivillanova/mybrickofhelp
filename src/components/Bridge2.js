@@ -6,6 +6,7 @@ import { Button } from './Button';
 
 function Bridge2() {
   return (
+
     <div className='bridge'>
     <div className='bridge-container'>
         <div className='bridge-text'>
@@ -22,8 +23,8 @@ function Bridge2() {
     </div>
           
       <Button>ВЗЯТЬ УЧАСТЬ ТУТ</Button>
-      </div>
 
+      </div>
 
   );
 }

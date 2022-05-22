@@ -13,6 +13,12 @@
   color: #ffffff;
 }
 
+.markercss {
+  background-image: url('https://amymhaddad.s3.amazonaws.com/morocco-blue.png');
+  width: 20px;
+  height: 20px;
+}
+
 .map-container {
   position: absolute;
   top: 250px;
