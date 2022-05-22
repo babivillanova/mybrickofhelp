@@ -5,7 +5,7 @@ import './Map.css';
 import hero2 from './images/Hero2.png';
 
 mapboxgl.accessToken =
-  'pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA';
+  'sk.eyJ1IjoibW1pc3RyeTIiLCJhIjoiY2wzaDhwcXBiMGtkeDNjbzNkOTV3eDAyNyJ9.q0A7XgNYjNhv7PO6SWKMhw';
 
 const Map = () => {
   const mapContainerRef = useRef(null);
@@ -49,10 +49,10 @@ const Map = () => {
     const marker4 = new mapboxgl.Marker(el4).setLngLat([32.11656, 51.6994]).addTo(map);
 
     map.on('move', () => {
-      const marker = new mapboxgl.Marker(el).setLngLat([30.91656, 50.2994]).addTo(map);
-      const marker2 = new mapboxgl.Marker(el2).setLngLat([31.81656, 50.0994]).addTo(map);
-      const marker3 = new mapboxgl.Marker(el3).setLngLat([29.70656, 49.7994]).addTo(map);
-      const marker4 = new mapboxgl.Marker(el4).setLngLat([32.11656, 50.6994]).addTo(map);
+      const marker = new mapboxgl.Marker(el).setLngLat([30.91656, 51.2994]).addTo(map);
+     const marker2 = new mapboxgl.Marker(el2).setLngLat([31.81656, 51.8994]).addTo(map);
+    const marker3 = new mapboxgl.Marker(el3).setLngLat([31.70656, 51.7994]).addTo(map);
+    const marker4 = new mapboxgl.Marker(el4).setLngLat([32.11656, 51.6994]).addTo(map);
       setLng(map.getCenter().lng.toFixed(4));
       setLat(map.getCenter().lat.toFixed(4));
       setZoom(map.getZoom().toFixed(2));

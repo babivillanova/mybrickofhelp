@@ -10,6 +10,7 @@ import SignUp from './components/pages/SignUp';
 import Marketplace from './components/pages/Marketplace';
 import Governance from './components/pages/Governance';
 import FAQ from './components/pages/FAQ';
+import Participate from './components/pages/Participate';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/marketplace' component={Marketplace} />
+          <Route path='/participate' component={Participate} />
           <Route path='/governance' component={Governance} />
           <Route path='/faq' component={FAQ} />
           <Route path='/privacy-policy' component={() => { 

@@ -181,14 +181,14 @@ function Navbar() {
                 <Link to='/MARKETPLACE' className="navbar-menu" >
                       MARKETPLACE
                 </Link>
-                <Link to='/ВЗЯТЬУЧАСТЬТУТ' className="navbar-menu">
+                <Link to='/participate' className="navbar-menu">
                 ВЗЯТЬ УЧАСТЬ ТУТ
                 </Link>
                 <Link to='/governance' className="navbar-menu">
                 GOVERNANCE
                 </Link>
 
-                <Link to='/FAQ' className="navbar-menu">
+                <Link to='/participate' className="navbar-menu">
                 FAQ
                 </Link>
 
