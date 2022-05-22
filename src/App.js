@@ -20,8 +20,8 @@ function App() {
           <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/marketplace' component={Marketplace} />
-          <Route path='/products' component={Governance} />
-          <Route path='/faq' component={FAQ} />
+          {/* <Route path='/products' component={Governance} />
+          <Route path='/faq' component={FAQ} /> */}
           <Route path='/privacy-policy' component={() => { 
                 window.location.href = 'https://example.com/1234'; 
                 return null;
