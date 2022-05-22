@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../App.css';
-import Dates from '../Dates';
+
 import HeroSection from '../HeroSection';
 import Footer from '../Footer';
 import Bridge from '../Bridge';

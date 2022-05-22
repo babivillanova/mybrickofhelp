@@ -1,17 +1,24 @@
 import React from 'react';
 import '../../App.css';
-import Dates from '../Dates';
+
 import HeroSection from '../HeroSection';
 import Footer from '../Footer';
 import Bridge from '../Bridge';
-import Map from '../Map';
+import Bridge2 from '../Bridge2';
+import Map2 from '../Map2';
+
 import NFT from '../NFT';
 
 function Home() {
   return (
     <>
       <HeroSection/>
-      <Map/>
+      <Bridge/>
+      <Map2/>
+      <Bridge2/>
+
+
+
     </>
   );
 }
