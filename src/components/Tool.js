@@ -7,7 +7,10 @@ function Tool() {
 
     <div className='card'>
       <div className='card-content'>
-        Your voting rights <br/> start here
+        <div className='avatarname'>Your voting rights start here </div>
+        <br/>
+        <div className='avatar'>👨🏻‍🌾</div> <br/>
+        <div className='balance'>You own <br/> 124 x 🔰</div> 
 
         
       </div>
