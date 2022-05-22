@@ -14,6 +14,9 @@
 * Vercel (Checkout Github deployment for Map component) : https://mybrickofhelp.vercel.app/
 * Github (Marketplace) : https://babivillanova.github.io/MARKETPLACE
 
+# DataHub (Figment) RPC
+* User Id : mayurmmistry7@gmail.com
+
 ![image](https://user-images.githubusercontent.com/7644450/169700510-a2cd043c-7c77-4831-ab73-b935c98b5db4.png)
 
 ![image](https://user-images.githubusercontent.com/7644450/169700529-a526877e-0f70-4af8-a1b7-021d1dd1dfa6.png)
