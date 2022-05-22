@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monteserrat');
+@import url('https://fonts.googleapis.com/css?family=Cousine');  
+ 
+
+.bridge-container {
+  height: 250px;
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bridge-text >p{
+ 
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Krona One';
+    font-size: 28px;
+    color:#C1FFE5
+  }
+ 
+  .bridge-container>h3 {
+    font-family: 'Cousine';
+    font-size: 15px;
+    font-weight: 100;
+    color:#289c6e;
+    padding: 20px;
+
+  }
