@@ -85,10 +85,10 @@ const onboard = Onboard({
     }
   ],
   appMetadata: {
-    name: "My App",
+    name: "Activate",
     icon: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
     logo: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
-    description: "My app using Onboard",
+    description: "Fractionalized Real Estate",
     recommendedInjectedWallets: [
       { name: "Coinbase", url: "https://wallet.coinbase.com/" },
       { name: "MetaMask", url: "https://metamask.io" }
