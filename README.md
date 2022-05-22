@@ -10,7 +10,9 @@
 # Coinbase
 ![image](https://user-images.githubusercontent.com/7644450/169701020-ad59d8bb-bc1d-46c5-89a7-0e17757ad5a8.png)
 
-
+# Deployed :
+* Vercel (Checkout Github deployment for Map component) : https://mybrickofhelp.vercel.app/
+* Github (Marketplace) : https://babivillanova.github.io/MARKETPLACE
 
 ![image](https://user-images.githubusercontent.com/7644450/169700510-a2cd043c-7c77-4831-ab73-b935c98b5db4.png)
 
