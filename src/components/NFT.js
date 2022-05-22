@@ -25,10 +25,7 @@ const NFT = () => {
           <img className='nftimage' src="https://qph.fs.quoracdn.net/main-qimg-7511a3d3ebd4ffa5c8c652e691444fd4-lq"></img>
           <img className='nftimage' src="https://qph.fs.quoracdn.net/main-qimg-7511a3d3ebd4ffa5c8c652e691444fd4-lq"></img>
           <img className='nftimage' src="https://qph.fs.quoracdn.net/main-qimg-7511a3d3ebd4ffa5c8c652e691444fd4-lq"></img>
-          <img className='nftimage' src="https://qph.fs.quoracdn.net/main-qimg-7511a3d3ebd4ffa5c8c652e691444fd4-lq"></img>
-          <img className='nftimage' src="https://qph.fs.quoracdn.net/main-qimg-7511a3d3ebd4ffa5c8c652e691444fd4-lq"></img>
-          <img className='nftimage' src="https://qph.fs.quoracdn.net/main-qimg-7511a3d3ebd4ffa5c8c652e691444fd4-lq"></img>
-          <img className='nftimage' src="https://qph.fs.quoracdn.net/main-qimg-7511a3d3ebd4ffa5c8c652e691444fd4-lq"></img>
+
 
 
         </div>  

@@ -1,34 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Monteserrat');
-@import url('https://fonts.googleapis.com/css?family=Cousine');  
- 
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans");
+
+.bridge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 80px;
+}
 
 .bridge-container {
   height: 250px;
   display: flex;
-  flex:1;
+
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
+  padding-left: 5%;
 }
 
-.bridge-text >p{
- 
-    display: flex;
-    flex:1;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Krona One';
-    font-size: 28px;
-    color:#C1FFE5
-  }
- 
-  .bridge-container>h3 {
-    font-family: 'Cousine';
-    font-size: 15px;
-    font-weight: 100;
-    color:#289c6e;
-    padding: 20px;
+.bridge-text > p {
+  justify-content: left;
+  align-items: left;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 10px;
 
-  }
+  color: #ffffff;
+}
+
+.explain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 10px 10px 0;
+}
+
+.explaintext {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: center;
+  align-self: center;
+  color: #000000;
+  width: 30%;
+}

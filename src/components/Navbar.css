@@ -5,9 +5,9 @@
 .navbar {
   height: 80px;
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 10px;
   position: relative;
   top: 10px;
   /* z-index: 999;*/
@@ -15,7 +15,7 @@
 
 .navbar-container {
   display: flex;
-  justify-content: start;
+  justify-content: center;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
@@ -29,7 +29,7 @@
   justify-content: space-between;
 }
 
-.social-icon-link-instagram {
+/* .social-icon-link-instagram {
   color: #c1ffe5;
 }
 
@@ -43,11 +43,11 @@
 
 .social-icon-link-linkedin {
   color: #c1ffe5;
-}
+} */
 
 .navbar-logo {
   color: #c1ffe5;
-  justify-self: start;
+  /* justify-self: start; */
   margin-left: 0px;
   cursor: pointer;
   height: 70px;
@@ -61,21 +61,21 @@
   font-family: "Plus Jakarta Sans", sans-serif;
   justify-content: center;
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-decoration: none;
   color: #ffffff;
   padding-left: 25px;
-  padding-right: 25px;
+  padding-right: 35px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 .navbar-menu:hover {
-  background-color: #ffffff22;
+  color: #e67070;
   transition: all 0.2s ease-out;
 }
 
-.social-icons {
+/* .social-icons {
   color: #c1ffe5;
   display: flex;
   justify-content: end;
@@ -83,7 +83,7 @@
   margin-top: -5px;
   margin-left: 350px;
   margin-right: 0px;
-}
+} */
 
 .navbar__nav {
   display: flex;
