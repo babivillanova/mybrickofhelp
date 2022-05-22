@@ -11,8 +11,8 @@ const Map = () => {
   const mapContainerRef = useRef(null);
 
   const [lng, setLng] = useState(30.91656);
-  const [lat, setLat] = useState(49.6794);
-  const [zoom, setZoom] = useState(6.5);
+  const [lat, setLat] = useState(48.6794);
+  const [zoom, setZoom] = useState(6);
 
   // Initialize map when component mounts
   useEffect(() => {
@@ -25,44 +25,28 @@ const Map = () => {
 
     // Add navigation control (the +/- zoom buttons)
     map.addControl(new mapboxgl.NavigationControl(), 'top-right');
-    map.scrollZoom.disable();
+   map.scrollZoom.disable();
 
     
 
     const el = document.createElement('div');
-    const width = 20;
-    const height = 20;
-    el.className = 'map-container';
-    el.style.backgroundImage = `url("https://amymhaddad.s3.amazonaws.com/morocco-blue.png")`;
-    el.style.width = `${width}px`;
-    el.style.height = `${height}px`;
+    el.className = 'markercss';
+   
 
     const el2 = document.createElement('div');
-   
-    el2.className = 'map-container';
-    el2.style.backgroundImage = `url("https://amymhaddad.s3.amazonaws.com/morocco-blue.png")`;
-    el2.style.width = `${width}px`;
-    el2.style.height = `${height}px`;
+    el2.className = 'markercss';
    // el.style.backgroundSize = '100%';
 
    const el3 = document.createElement('div');
-   
-    el3.className = 'map-container';
-    el3.style.backgroundImage = `url("https://amymhaddad.s3.amazonaws.com/morocco-blue.png")`;
-    el3.style.width = `${width}px`;
-    el3.style.height = `${height}px`;
+   el3.className = 'markercss';
 
     const el4 = document.createElement('div');
-   
-    el4.className = 'map-container';
-    el4.style.backgroundImage = `url("https://imagizer.imageshack.com/v2/260x260q90/c/r/661/MminPy.jpg")`;
-    el4.style.width = `${width}px`;
-    el4.style.height = `${height}px`;
+    el4.className = 'markercss';
  
-    const marker = new mapboxgl.Marker(el).setLngLat([30.91656, 50.2994]).addTo(map);
-    const marker2 = new mapboxgl.Marker(el2).setLngLat([31.81656, 50.0994]).addTo(map);
-    const marker3 = new mapboxgl.Marker(el3).setLngLat([29.70656, 49.7994]).addTo(map);
-    const marker4 = new mapboxgl.Marker(el4).setLngLat([32.11656, 50.6994]).addTo(map);
+    const marker = new mapboxgl.Marker(el).setLngLat([30.91656, 51.2994]).addTo(map);
+    const marker2 = new mapboxgl.Marker(el2).setLngLat([31.81656, 51.8994]).addTo(map);
+    const marker3 = new mapboxgl.Marker(el3).setLngLat([31.70656, 51.7994]).addTo(map);
+    const marker4 = new mapboxgl.Marker(el4).setLngLat([32.11656, 51.6994]).addTo(map);
 
     map.on('move', () => {
       const marker = new mapboxgl.Marker(el).setLngLat([30.91656, 50.2994]).addTo(map);

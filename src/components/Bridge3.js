@@ -2,6 +2,8 @@ import React from 'react';
 import '../App.css';
 import './Bridge.css';
 import { Button } from './Button';
+import Group10 from './images/Group10.png';
+
 
 
 function Bridge2() {
@@ -14,7 +16,7 @@ function Bridge2() {
          </div>
      
         <div className='explain'>
-        <img className='explaintext1' src={require('./images/Group10.png')} alt='bla'/>
+        <img className='explaintext1' src={Group10} alt='blas'/>
 
 
         </div>
