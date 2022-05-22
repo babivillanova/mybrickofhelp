@@ -12,7 +12,7 @@
 
 # Deployed :
 * Vercel (Checkout Github deployment for Map component) : https://mybrickofhelp.vercel.app/
-* Github (Marketplace) : https://babivillanova.github.io/MARKETPLACE
+* Github (Marketplace) : https://babivillanova.github.io/mybrickofhelp/
 
 # DataHub (Figment) RPC
 * User Id : mayurmmistry7@gmail.com
