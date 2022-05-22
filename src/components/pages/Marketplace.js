@@ -7,13 +7,13 @@ import Bridge from '../Bridge';
 import Map from '../Map';
 import NFT from '../NFT';
 
-function Home() {
+function Marketplace() {
   return (
     <>
-      <HeroSection/>
       <Map/>
+      <NFT/>
     </>
   );
 }
 
-export default Home;
+export default Marketplace;

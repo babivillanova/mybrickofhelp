@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { useEffect } from 'react';
 import {Link} from 'react-router-dom';
 import './Navbar.css';
-import hero from './images/Hero.png';
+import logo from './images/Logo.png';
 
 
 function Navbar() {
@@ -33,20 +33,20 @@ function Navbar() {
           <div className='navbar__wrapper'>
                 <ul className='navbar__nav'>
                 
-                     <img className="navbar-logo" src={hero} />
+                     <img className="navbar-logo" src={logo} />
                 
-                <Link to='/faq' className="navbar-menu" >
-                      FAQ
-                </Link>
-                <Link to='/buynft' className="navbar-menu">
-                      BUY NFT
+                <Link to='/MARKETPLACE' className="navbar-menu" >
+                      MARKETPLACE
                 </Link>
                 <Link to='/ВЗЯТЬУЧАСТЬТУТ' className="navbar-menu">
-                ВЗЯТЬ УЧАСТЬ ТУТ 
+                ВЗЯТЬ УЧАСТЬ ТУТ
+                </Link>
+                <Link to='/governance' className="navbar-menu">
+                GOVERNANCE
                 </Link>
 
-                <Link to='/GOVERNANCE' className="navbar-menu">
-                GOVERNANCE
+                <Link to='/FAQ' className="navbar-menu">
+                FAQ
                 </Link>
 
                 <Link to='/WALLET' className="navbar-menu">
