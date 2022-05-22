@@ -6,7 +6,9 @@ function Tool() {
   return (
 
     <div className='card'>
-      <div className='card-content'>blablablablaba
+      <div className='card-content'>
+        Your voting rights <br/> start here
+
         
       </div>
             <div >

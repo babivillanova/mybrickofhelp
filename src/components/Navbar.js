@@ -32,21 +32,19 @@ function Navbar() {
         <div className="navbar-container">
           <div className='navbar__wrapper'>
                 <ul className='navbar__nav'>
-                
-                     <img className="navbar-logo" src={logo} />
+                <Link to='/' className="navbar-logo" >
+                      
+                </Link>
+                     <img className="navbar-logo"  src={logo} />
                 
                 <Link to='/MARKETPLACE' className="navbar-menu" >
                       MARKETPLACE
                 </Link>
                 <Link to='/ВЗЯТЬУЧАСТЬТУТ' className="navbar-menu">
-                ВЗЯТЬ УЧАСТЬ ТУТ
+                ВЗЯТЬ УЧАСТЬ ТУТ <span/> ( FAQ )
                 </Link>
                 <Link to='/governance' className="navbar-menu">
                 GOVERNANCE
-                </Link>
-
-                <Link to='/FAQ' className="navbar-menu">
-                FAQ
                 </Link>
 
                 <Link to='/WALLET' className="navbar-menu">
