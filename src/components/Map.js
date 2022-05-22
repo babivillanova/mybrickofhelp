@@ -5,7 +5,7 @@ import './Map.css';
 import hero2 from './images/Hero2.png';
 
 mapboxgl.accessToken =
-  'sk.eyJ1IjoibW1pc3RyeTIiLCJhIjoiY2wzaDhwcXBiMGtkeDNjbzNkOTV3eDAyNyJ9.q0A7XgNYjNhv7PO6SWKMhw';
+  'pk.eyJ1IjoibW1pc3RyeTIiLCJhIjoiY2trZnJzMjZhMDZncDJ3cGR3M3p0bXc1aSJ9.CdLRZiNADT91-W-HAhC5QQ';
 
 const Map = () => {
   const mapContainerRef = useRef(null);
